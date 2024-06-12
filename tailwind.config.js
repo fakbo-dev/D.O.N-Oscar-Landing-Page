@@ -6,7 +6,28 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: "15px",
+      screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "960px",
+        xl: "1200px",
+      },
+    },
+    fontFamily: {
+      primary: "var(--font-playfair)",
+    },
     extend: {
+
+      colors: {
+        primary: "#F8C794",
+        secondary: {
+          DEFAULT: "#FEFDED",
+          hover: "#F0EBE3",
+        },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
