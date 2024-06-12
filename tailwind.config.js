@@ -9,15 +9,18 @@ module.exports = {
     container: {
       center: true,
       padding: "15px",
-      screens: {
-        sm: "640px",
-        md: "768px",
-        lg: "960px",
-        xl: "1200px",
-      },
+    },
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "960px",
+      xl: "1200px",
     },
     fontFamily: {
       primary: "var(--font-playfair)",
+    },
+    backgroundImage: {
+      hero: 'url(/public/hero/hero.jpg)'
     },
     extend: {
 

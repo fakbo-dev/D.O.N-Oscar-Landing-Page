@@ -1,9 +1,11 @@
+import Hero from "@/components/Hero";
 
 function Home() {
   return (
     <>
       <main className="max-w-[1920px] mx-auto bg-white overflow-hidden">
-        <h1>Home</h1>
+        <Hero />
+        <div className="h-[3000px]"></div>
       </main>
     </>
   );
