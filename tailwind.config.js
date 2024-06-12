@@ -7,8 +7,8 @@ module.exports = {
   ],
   theme: {
     container: {
-      center: true,
       padding: "15px",
+      center: true,
     },
     screens: {
       sm: "640px",
@@ -17,24 +17,24 @@ module.exports = {
       xl: "1200px",
     },
     fontFamily: {
-      primary: "var(--font-playfair)",
+      roboto: "var(--font-roboto)",
+      playfair: "var(--font-playfair)",
     },
     backgroundImage: {
-      hero: 'url(/public/hero/hero.jpg)'
+      hero: "url(/assets/hero/bg.jpg)",
     },
     extend: {
-
       colors: {
-        primary: "#F8C794",
-        secondary: {
-          DEFAULT: "#FEFDED",
-          hover: "#F0EBE3",
+        primary: {
+          DEFAULT: "#ECB176",
+          hover: "#F8C794",
         },
-      },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        secondary: "#4d5053",
+        accent: {
+          DEFAULT: "#cda274",
+          secondary: "#F4Dec",
+          hover: "#b88c5d",
+        }
       },
     },
   },

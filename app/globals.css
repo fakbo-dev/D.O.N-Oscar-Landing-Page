@@ -3,17 +3,30 @@
 @tailwind utilities;
 
 
+
 @layer base {
-body {
-    @apply font-primary  text-black leading-loose;
+    body {
+        @apply font-roboto text-[22px] text-secondary;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-playfair font-bold uppercase text-primary;
+    }
 }
+
 .h1 {
-    @apply text-[64px] xl:text-[84px] leading-none font-semibold
+    @apply text-[64px] lg:text-[84px] leading-none;
 }
+
 .h2 {
-    @apply text-[50px] leading-tight font-semibold
+    @apply text-[50px] leading-tight;
 }
+
 .h3 {
-    @apply text-[28px] xl:text-[24px]
-}
+    @apply text-[25px];
 }
