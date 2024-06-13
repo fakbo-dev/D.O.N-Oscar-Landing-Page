@@ -10,7 +10,6 @@ const Home = () => {
         {/* Temporal div */}
         <div className="h-[3000px]"></div>
       </main>
-
     </>
   )
 }
