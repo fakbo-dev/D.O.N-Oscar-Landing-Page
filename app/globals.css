@@ -20,7 +20,7 @@
 }
 
 .h1 {
-    @apply text-[64px] lg:text-[84px] leading-none;
+    @apply text-[64px] lg:text-[74px] leading-none;
 }
 
 .h2 {
