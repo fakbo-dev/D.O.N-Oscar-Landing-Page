@@ -15,7 +15,7 @@
     h4,
     h5,
     h6 {
-        @apply font-playfair font-bold uppercase text-primary;
+        @apply font-playfair font-bold uppercase text-white;
     }
 }
 

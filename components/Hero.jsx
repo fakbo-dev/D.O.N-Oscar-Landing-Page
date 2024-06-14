@@ -14,7 +14,7 @@ const Hero = () => {
 
                     <div className="w-[567px] flex flex-col items-center  text-center xl:text-left lg:items-start">
                         <h1 className="h1 mb-8">Haz de tu Hogar Unico</h1>
-                        <p className="mb-8 text-1xl">Carpintería/Ebanistería, Fabricación y Remodelación de Muebles, Cocinas, Vestier, Dormitorios y Mucho Más!! Todo a Medida</p>
+                        <p className="mb-8 text-1xl text-white">Carpintería/Ebanistería, Fabricación y Remodelación de Muebles, Cocinas, Vestier, Dormitorios y Mucho Más!! Todo a Medida</p>
                         <button className="btn btn-primary mx-auto xl:mx-0">Obten tu primera consulta gratis {<FaArrowRight className="text-accent" />}</button>
                     </div>
                 </div>

@@ -13,7 +13,7 @@ const Steps = () => {
                             <FaHammer className="text-accent text-5xl" />
                         </div>
                         <h3 className="h3 mb-5">Planeacion del proyecto</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, quam!</p>
+                        <p className="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, quam!</p>
                     </div>
                 </div>
             </div>

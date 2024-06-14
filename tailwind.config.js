@@ -21,7 +21,7 @@ module.exports = {
       playfair: "var(--font-playfair)",
     },
     backgroundImage: {
-      hero: "url(/assets/hero/bg.jpg)",
+      hero: "url(/assets/hero/bg3.jpg)",
       grid: "url(/assets/grid/grid.png)"
     },
     extend: {
