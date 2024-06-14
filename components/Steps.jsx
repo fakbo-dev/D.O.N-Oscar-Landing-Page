@@ -19,7 +19,7 @@ const Steps = () => {
                     </div>
 
                     <div className="text-center">
-                        <div className="mb-5 flex justify-center">
+                        <div className="mb-4 flex justify-center">
                             <PiBlueprintLight className="text-accent text-5xl" />
                         </div>
                         <h3 className="h3 mb-5">planeacion</h3>
@@ -27,11 +27,11 @@ const Steps = () => {
                     </div>
 
                     <div className="text-center">
-                        <div className="mb-5 flex justify-center">
+                        <div className="mb-4 flex justify-center">
                             <FaHammer className="text-accent text-5xl" />
                         </div>
                         <h3 className="h3 mb-5">ejecucion</h3>
-                        <p className="mb-5 max-w-md mx-auto"> nos enfocamos en entregar un servicio excepcional al cliente. Nuestro equipo altamente capacitado se asegurará de que cada detalle se lleve a cabo con precisión. Estamos comprometidos con tu éxito y superar tus expectativas.</p>
+                        <p className="mb-5 max-w-md mx-auto"> nos enfocamos en entregar un servicio excepcional al cliente. Nos aseguramos de que cada detalle se lleve a cabo con precisión. </p>
                     </div>
                 </div>
             </div>

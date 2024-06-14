@@ -2,7 +2,7 @@
 // Components
 import Hero from "@/components/Hero"
 import Steps from "@/components/Steps"
-
+import About from "@/components/About"
 const Home = () => {
   return (
     <>
@@ -12,6 +12,8 @@ const Home = () => {
         <Hero />
         {/* Steps */}
         <Steps />
+        {/* About */}
+        <About />
         {/* Temporal div */}
         <div className="h-[3000px]"></div>
       </main>
