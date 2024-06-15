@@ -5,7 +5,7 @@ import MobileNav from "./MobileNav";
 
 const Header = () => {
     return (
-        <header className="sticky top-0 h-[98px] shadow-xl z-30 bg-white">
+        <header className="sticky top-0  shadow-xl z-30  card">
             <div className="container mx-auto flex justify-between h-full">
                 {/* logo */}
                 <Link href="/">

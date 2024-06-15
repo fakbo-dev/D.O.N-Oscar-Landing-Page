@@ -36,7 +36,7 @@ const Nav = () => {
     return (
         <nav className="flex gap-8">
             {links.map(({ name, path, id }) => (
-                <Link href={path} key={id} className="hover:text-accent transition-all delay-100">{name}</Link>
+                <Link href={path} key={id} className="hover:text-accent transition-all delay-100 text-black font-bold">{name}</Link>
             ))}
         </nav>
     )
