@@ -4,6 +4,7 @@ import Hero from "@/components/Hero"
 import Steps from "@/components/Steps"
 import About from "@/components/About"
 import Testimonials from "@/components/Testimonials"
+import Brands from "@/components/Brands";
 
 const Home = () => {
   return (
@@ -18,6 +19,8 @@ const Home = () => {
         <About id="about" />
         {/* Testimonials */}
         <Testimonials />
+        {/* Brands */}
+        <Brands />
         {/* Temporal div */}
         <div className="h-[3000px]"></div>
       </main>
