@@ -22,7 +22,7 @@ const links = [
         id: 3,
     },
     {
-        name: "projectos",
+        name: "proyectos",
         path: "#projects",
         id: 4,
     },
