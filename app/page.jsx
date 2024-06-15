@@ -15,7 +15,7 @@ const Home = () => {
         {/* Steps */}
         <Steps />
         {/* About */}
-        <About />
+        <About id="about" />
         {/* Testimonials */}
         <Testimonials />
         {/* Temporal div */}
