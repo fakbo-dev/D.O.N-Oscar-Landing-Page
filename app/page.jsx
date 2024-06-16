@@ -19,7 +19,7 @@ const Home = () => {
         {/* Steps */}
         <Steps />
         {/* About */}
-        <About id="about" />
+        <About />
         {/* Testimonials */}
         <Testimonials />
         {/* Brands */}

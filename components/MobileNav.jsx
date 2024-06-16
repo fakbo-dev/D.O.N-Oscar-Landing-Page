@@ -7,32 +7,32 @@ const links = [
     {
         name: "inicio",
         path: "/",
-        id: 0,
+        id: 6,
     },
     {
         name: "nosotros",
         path: "#about",
-        id: 1,
+        id: 7,
     },
     {
         name: "testimonios",
         path: "#testimonials",
-        id: 2,
+        id: 8,
     },
     {
         name: "Nuestro trabajos",
         path: "#our-works",
-        id: 3,
+        id: 9,
     },
     {
         name: "experiencia",
         path: "#experience",
-        id: 4,
+        id: 10,
     },
     {
         name: "contacto",
         path: "#contact",
-        id: 5,
+        id: 11,
     },
 ]
 
@@ -53,10 +53,10 @@ const MobileNav = () => {
                 </div>
                 {/* Nav */}
                 <nav className="flex flex-col justify-center items-center gap-8">
-                    {links.map(({ name, path }, i) => (
+                    {links.map(({ name, path, id }, i) => (
                         <Link
                             href={path}
-                            key={i}
+                            key={id}
                             className={`text-xl capitalize hover:text-accent transition-all text-white`}>
                             {name}
                         </Link>
