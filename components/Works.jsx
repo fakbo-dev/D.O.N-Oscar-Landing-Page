@@ -6,7 +6,7 @@ const listImages = [
     {
         img: "/assets/armario/1.jpg",
         type: "armario",
-        title: "Elegantes armario",
+        title: "Elegantes closets",
         content: "Decoracion/Funcionalidad",
         id: 18
     },
@@ -42,21 +42,21 @@ const listImages = [
     {
         img: "/assets/gabinetes/4.jpg",
         type: "gabinete",
-        title: "gabinete",
+        title: "gabinetes",
         content: "Decoracion/Funcionalidad",
         id: 24
     },
     {
         img: "/assets/gabinetes/12.jpg",
         type: "gabinete",
-        title: "gabinete con mucho espacio",
+        title: "gabinete con mucho almacenamiento",
         content: "Decoracion/Funcionalidad",
         id: 25
     },
     {
         img: "/assets/hall/5.jpg",
         type: "hall",
-        title: "las mejores recepciones",
+        title: "mini bar",
         content: "Decoracion/Funcionalidad",
         id: 26
     },
@@ -77,7 +77,7 @@ const listImages = [
     {
         img: "/assets/kids-room/4.jpg",
         type: "cuarto-espacioso",
-        title: "diseño de cuarto espacioso",
+        title: "oficina",
         content: "Decoracion/Funcionalidad",
         id: 29
     },
@@ -98,14 +98,14 @@ const listImages = [
     {
         img: "/assets/living-room/1.jpg",
         type: "vidriera",
-        title: "increible vidriera",
+        title: "vitrina",
         content: "Decoracion/Funcionalidad",
         id: 32
     },
     {
         img: "/assets/living-room/2.jpg",
         type: "vidriera",
-        title: "perfecto para tu sala comun",
+        title: "perfecto para tu sala de Tv",
         content: "Decoracion/Funcionalidad",
         id: 33
     },
