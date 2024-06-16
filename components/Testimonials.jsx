@@ -49,7 +49,7 @@ const Testimonials = () => {
     return (
         <section className="mt-[80px] xl:mt-[200px] relative z-20">
             {/* Container */}
-            <RevealWrapper origin="top" interval={100} delay={500} distance="2000px" duration={1500} reset={true} className="container mx-auto bg-accent rounded-[70px] px-6">
+            <RevealWrapper origin="top" interval={100} delay={500} distance="100px" duration={1500} reset={true} className="container mx-auto bg-accent rounded-[70px] px-6">
                 {/* Slider */}
                 <div className="flex flex-col pt-[88px] items-center pb-[110px]">
                     <h2 className="h2 mb-12 text-center">Que dicen Nuestros Clientes</h2>
