@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import { Pagination, Autoplay, Navigation } from "swiper/modules"
 import { IoIosPerson } from "react-icons/io";
 import { SlUserFemale } from "react-icons/sl";
-
+import { RevealWrapper } from "next-reveal";
 
 // swiper style
 import "swiper/css";
@@ -49,7 +49,7 @@ const Testimonials = () => {
     return (
         <section className="mt-[80px] xl:mt-[200px] relative z-20">
             {/* Container */}
-            <div className="container mx-auto bg-accent rounded-[70px] px-6">
+            <RevealWrapper origin="top" interval={100} delay={500} distance="2000px" duration={1500} reset={true} className="container mx-auto bg-accent rounded-[70px] px-6">
                 {/* Slider */}
                 <div className="flex flex-col pt-[88px] items-center pb-[110px]">
                     <h2 className="h2 mb-12 text-center">Que dicen Nuestros Clientes</h2>
@@ -105,7 +105,7 @@ const Testimonials = () => {
                     </Swiper>
 
                 </div>
-            </div>
+            </RevealWrapper>
         </section>
     )
 }

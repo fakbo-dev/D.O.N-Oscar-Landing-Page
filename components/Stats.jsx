@@ -1,5 +1,5 @@
 "use client"
-
+import { RevealList } from "next-reveal";
 const list = [
     {
         number: 6,
@@ -25,7 +25,7 @@ const Stats = () => {
         <section className="mt-[80px] xl:mt-[150px] relative z-20 bg-secondary py-[80px] xl:py-[150px]">
             <div className="container mx-auto">
                 {/* Grid */}
-                <div className="grid grid-cols-1 xl:grid-cols-4 gap-12">
+                <RevealList origin="bottom" interval={100} delay={500} distance="100px" duration={1500} reset={true} className="grid grid-cols-1 xl:grid-cols-4 gap-12">
                     {/* Grid items */}
                     {list.map(({ number, content }, i) => (
                         <div className={`${i !== list.length - 1 && "xl:border-r xl:border-accent"} text-center`} key={i}>
@@ -33,7 +33,7 @@ const Stats = () => {
                             <p className="text-white">{content}</p>
                         </div>
                     ))}
-                </div>
+                </RevealList>
             </div>
         </section>
     )

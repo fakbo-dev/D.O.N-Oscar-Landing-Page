@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image";
+import { RevealList } from "next-reveal";
 const list = [
     {
         name: "Hotel Cristal Park",
@@ -23,11 +24,11 @@ const Brands = () => {
     return (
         <section className="mt-[80px] xl:mt-[200px] relative z-20">
             <div className="container mx-auto">
-                <div className=" flex flex-col xl:flex-row gap-12 justify-evenly items-center">
+                <RevealList origin="bottom" interval={100} delay={500} distance="100px" duration={1500} reset={true} className=" flex flex-col xl:flex-row gap-12 justify-evenly items-center">
                     {list.map(({ name, img, id }) => (
                         <Image key={id} src={img} alt={name} width={150} height={150} title={name} />
                     ))}
-                </div>
+                </RevealList>
             </div>
         </section>
     )

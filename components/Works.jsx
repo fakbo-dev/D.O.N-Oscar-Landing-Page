@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-
+import { RevealList } from "next-reveal";
 
 const listImages = [
     {
@@ -116,14 +116,14 @@ const Works = () => {
     return (
         <section className="mt-[80px] xl:mt-[150px] relative z-20">
             <div className="container mx-auto flex justify-center items-center flex-col">
-                <div className="text-center mb-24">
+                <RevealList origin="bottom" interval={100} delay={500} distance="100px" duration={1500} reset={true} className="text-center mb-24">
                     <h2 className="h2 mb-4">Sigue nuestros Proyectos</h2>
                     <p className="max-w-3xl mx-auto"> Creamos cocinas, vestier, dormitorios y mucho más, todo a medida. Nuestro equipo de expertos artesanos se dedica a brindarte muebles únicos y personalizados. Contáctanos hoy para convertir tus ideas en realidad. Estamos ansiosos por trabajar contigo en tu próximo proyecto.</p>
-                </div>
+                </RevealList>
                 {/* grid */}
                 <div className="grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 gap-x-[104px] gap-y-[56px]">
                     {listImages.map(({ img, type, title, content }, i) => (
-                        <div className="w-full max-w-[548px] h-full max-h-[500px] mx-auto mb-7" key={i}>
+                        <RevealList origin="bottom" interval={100} delay={500} distance="100px" duration={1500} reset={true} className="w-full max-w-[548px] h-full max-h-[500px] mx-auto mb-7" key={i}>
                             <Image
                                 src={img}
                                 alt={type}
@@ -138,7 +138,7 @@ const Works = () => {
                                 </div>
 
                             </div>
-                        </div>
+                        </RevealList>
                     ))}
                 </div>
             </div>
