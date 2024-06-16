@@ -123,7 +123,7 @@ const Works = () => {
                 {/* grid */}
                 <div className="grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 gap-x-[104px] gap-y-[56px]">
                     {listImages.map(({ img, type, title, content }, i) => (
-                        <RevealList origin="bottom" interval={100} delay={500} distance="500px" duration={1500} reset={true} className="w-full max-w-[548px] h-full max-h-[500px] mx-auto mb-7" key={i}>
+                        <RevealList origin="bottom" interval={100} delay={500} distance="800px" duration={1500} reset={true} className="w-full max-w-[548px] h-full max-h-[500px] mx-auto mb-7" key={i}>
                             <Image
                                 src={img}
                                 alt={type}
