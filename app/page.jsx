@@ -30,8 +30,6 @@ const Home = () => {
         <Stats />
         {/* Contact */}
         <Contact />
-        {/* Temporal div */}
-        <div className="h-[3000px]"></div>
       </main>
     </>
   )
