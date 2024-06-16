@@ -96,7 +96,7 @@ const Testimonials = () => {
                                             <div>Venezuela</div>
                                         </div>
                                     </div>
-                                    <p className="text-base"><i>"{content}"</i></p>
+                                    <p className="text-base"><i>&quot;{content}&quot;</i></p>
                                 </div>
 
                             </SwiperSlide>
