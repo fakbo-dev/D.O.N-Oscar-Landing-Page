@@ -1,5 +1,5 @@
 import Image from "next/image"
-import sideImage from "/public/assets/hall/espejo-left-side-light-on.jpg"
+import sideImage from "/public/assets/hall/1.jpg"
 import { FaPhoneAlt, FaArrowRight } from "react-icons/fa";
 const About = ({ id }) => {
     return (
