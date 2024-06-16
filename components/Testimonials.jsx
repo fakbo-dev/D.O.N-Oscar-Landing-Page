@@ -79,28 +79,28 @@ const Testimonials = () => {
                         }}
                         className="w-full">
                         {lists.map(({ name, content, gender }, i) => (
-                            <>
-                                <SwiperSlide className="h-[400px] swiper" key={i}>
-                                    {/* items */}
-                                    <div className="w-full max-w-[450px] h-[340px] bg-white rounded-[30px] flex flex-col justify-center items-center p-9 mx-auto">
-                                        <div className="flex gap-4 mb-6">
-                                            {gender === "male" ? (
-                                                <IoIosPerson
-                                                    className="text-6xl text-accent" />
-                                            ) : (
-                                                <SlUserFemale
-                                                    className="text-6xl text-accent" />
-                                            )}
-                                            <div>
-                                                <h3>{name}</h3>
-                                                <div>Venezuela</div>
-                                            </div>
-                                        </div>
-                                        <p className="text-base"><i>"{content}"</i></p>
-                                    </div>
 
-                                </SwiperSlide>
-                            </>
+                            <SwiperSlide className="h-[400px] swiper" key={i}>
+                                {/* items */}
+                                <div className="w-full max-w-[450px] h-[340px] bg-white rounded-[30px] flex flex-col justify-center items-center p-9 mx-auto">
+                                    <div className="flex gap-4 mb-6">
+                                        {gender === "male" ? (
+                                            <IoIosPerson
+                                                className="text-6xl text-accent" />
+                                        ) : (
+                                            <SlUserFemale
+                                                className="text-6xl text-accent" />
+                                        )}
+                                        <div>
+                                            <h3>{name}</h3>
+                                            <div>Venezuela</div>
+                                        </div>
+                                    </div>
+                                    <p className="text-base"><i>"{content}"</i></p>
+                                </div>
+
+                            </SwiperSlide>
+
                         ))}
                     </Swiper>
 

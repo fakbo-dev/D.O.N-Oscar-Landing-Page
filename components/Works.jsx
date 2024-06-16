@@ -30,12 +30,12 @@ const listImages = [
     {
         img: "/assets/clean-room/1.jpg",
         type: "lavadero",
-        title: "lavadero",
+        title: "lavandero",
         content: "Decoracion/Funcionalidad",
     },
     {
         img: "/assets/clean-room/2.jpg",
-        type: "lavadero",
+        type: "lavandero",
         title: "acabados impecables",
         content: "Decoracion/Funcionalidad",
     },

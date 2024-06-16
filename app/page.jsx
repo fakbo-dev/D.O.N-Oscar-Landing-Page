@@ -1,11 +1,14 @@
 
 // Components
-import Hero from "@/components/Hero"
-import Steps from "@/components/Steps"
-import About from "@/components/About"
-import Testimonials from "@/components/Testimonials"
+import Hero from "@/components/Hero";
+import Steps from "@/components/Steps";
+import About from "@/components/About";
+import Testimonials from "@/components/Testimonials";
 import Brands from "@/components/Brands";
-import Works from "@/components/Works"
+import Works from "@/components/Works";
+import Stats from "@/components/Stats";
+import Contact from "@/components/Contact";
+
 const Home = () => {
   return (
     <>
@@ -23,6 +26,10 @@ const Home = () => {
         <Brands />
         {/* Works */}
         <Works />
+        {/* Stats */}
+        <Stats />
+        {/* Contact */}
+        <Contact />
         {/* Temporal div */}
         <div className="h-[3000px]"></div>
       </main>
