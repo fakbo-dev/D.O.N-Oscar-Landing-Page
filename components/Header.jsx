@@ -9,7 +9,7 @@ const Header = () => {
             <div className="container mx-auto flex justify-between h-full">
                 {/* logo */}
                 <Link href="/">
-                    <Image src="/assets/logo/logo.jpg" width="150" height="150" alt="logo Image" />
+                    <Image src="/assets/logo/logo.png" width="150" height="150" alt="logo Image" />
                 </Link>
 
                 {/* Desktop nav */}

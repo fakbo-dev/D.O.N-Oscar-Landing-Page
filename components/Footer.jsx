@@ -104,17 +104,17 @@ const Footer = () => {
     return (
         <footer className="mt-[80px] xl:mt-[150px] relative z-20">
             <div className="container mx-auto px-0">
-                <RevealList origin="bottom" interval={100} delay={500} distance="100px" duration={1500} className="flex flex-col xl:flex-row xl:gap-[100px] xl:mb-[150px] bg-secondary text-white rounded-md py-5">
+                <RevealList origin="bottom" interval={100} delay={500} distance="100px" duration={1500} className="flex flex-col xl:flex-row xl:gap-[100px] xl:mb-[150px] bg-accent text-secondary rounded-md py-5">
                     <div className="w-full max-w-[400px] mx-auto mb-8 text-center xl:text-left flex flex-col justify-center items-center">
                         <div className="flex justify-center items-center mb-8">
-                            <Image src="/assets/logo/logo.jpg" alt="logo"
+                            <Image src="/assets/logo/logo.png" alt="logo"
                                 width={150} height={150} />
                         </div>
                         <p className="mb-8 text-xl">Carpinteria y Ebanisteria</p>
                         {/* Socials */}
                         {list.map(({ name, content, id, path }) => (
                             <Fragment key={id}>
-                                <div className="text-accent flex gap-[54px] justify-center">
+                                <div className="text-secondary flex gap-[54px] justify-center">
                                     <Link href={path} target="_BLANK" title={name} className="text-5xl">{content}</Link>
                                 </div>
                             </Fragment>
@@ -123,29 +123,29 @@ const Footer = () => {
 
                     <div className=" flex-1 flex flex-col xl:flex-row text-center xl:text-left gap-12 xl:gap-[100px] xl:justify-end xl:min-w-[800px]">
                         <div className="footer__item">
-                            <h3 className="h3 mb-3 text-white font-extrabold">Secciones</h3>
+                            <h3 className="h3 mb-3 text-secondary font-extrabold">Secciones</h3>
                             {linkList.map(({ name, path, id }) => (
                                 <Fragment key={id}>
                                     <div className="flex flex-end justify-center flex-col gap-4" >
-                                        <Link href={path} className="hover:text-accent transition-all delay-100 text-white ">{name}</Link>
+                                        <Link href={path} className="hover:text-white transition-all delay-100 text-secondary ">{name}</Link>
                                     </div>
                                 </Fragment>
                             ))}
                         </div>
 
                         <div className="footer__item">
-                            <h3 className="h3 mb-3 text-white font-extrabold">Servicios</h3>
+                            <h3 className="h3 mb-3 text-secondary font-extrabold">Servicios</h3>
                             {services.map(({ name, id, path }) => (
                                 <Fragment key={id}>
                                     <div className="flex flex-end justify-center  flex-col gap-4" >
-                                        <Link href={path} className="hover:text-accent transition-all delay-100 text-white ">{name}</Link>
+                                        <Link href={path} className="hover:text-white transition-all delay-100 text-secondary ">{name}</Link>
                                     </div>
                                 </Fragment>
                             ))}
                         </div>
 
                         <div className="footer__item max-w-[260px] mx-auto xl:mx-0 mb-20">
-                            <h3 className="h3 mb-3 text-white font-extrabold">Contacto</h3>
+                            <h3 className="h3 mb-3 text-secondary font-extrabold">Contacto</h3>
                             {contact.map(({ name, id }) => (
                                 <Fragment key={id}>
                                     <div className="flex flex-col gap-6 text-[20px]">
