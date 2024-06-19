@@ -3,6 +3,7 @@ import Image from "next/image"
 import sideImage from "/public/assets/hall/1.jpg"
 import { FaPhoneAlt, FaArrowRight } from "react-icons/fa";
 import { RevealWrapper } from "next-reveal";
+import Link from "next/link";
 const About = () => {
     return (
         <>
@@ -27,7 +28,7 @@ const About = () => {
                                         <div>Contactanos!</div>
                                     </div>
                                 </div>
-                                <button className="btn btn-primary mx-auto xl:mx-0">Obten tu primera consulta gratis {<FaArrowRight className="text-accent" />}</button>
+                                <Link className="btn btn-primary mx-auto xl:mx-0" href="https://wa.me/584124340253" target="_BLANK">Obten tu primera consulta gratis {<FaArrowRight className="text-accent" />}</Link>
                             </div>
                         </RevealWrapper>
                         {/* img */}

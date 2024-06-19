@@ -1,7 +1,7 @@
 "use client"
 import { RevealWrapper } from "next-reveal";
 import { FaArrowRight } from "react-icons/fa";
-
+import Link from "next/link";
 
 const Hero = () => {
     return (
@@ -18,7 +18,7 @@ const Hero = () => {
                     <div className="w-[567px] flex flex-col items-center  text-center xl:text-left lg:items-start">
                         <h1 className="h1 mb-8 text-white">Haz de tu Hogar Unico</h1>
                         <p className="mb-8 text-2xl text-white  font-bolder tracking-widest">Carpintería/Ebanistería, Fabricación y Remodelación de Muebles, Cocinas, Vestier, Dormitorios y Mucho Más!! Todo a Medida</p>
-                        <button className="btn btn-primary mx-auto xl:mx-0">Obten tu primera consulta gratis {<FaArrowRight className="text-accent" />}</button>
+                        <Link className="btn btn-primary mx-auto xl:mx-0" href="https://wa.me/584124340253" target="_BLANK">Obten tu primera consulta gratis {<FaArrowRight className="text-accent" />}</Link>
                     </div>
                 </RevealWrapper>
             </section>
